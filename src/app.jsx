@@ -27,7 +27,7 @@ class App extends Component {
       if(item.id === habit.id) {
         return {...habit, count: habit.count + 1}
       } else {
-        return item
+        return item 
       }
     });
     this.setState({habits})
